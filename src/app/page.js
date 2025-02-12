@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div >
-      <h1>Food Delivery APP</h1>
+      <h1>Food delivery app</h1>
     </div>
   );
 }
