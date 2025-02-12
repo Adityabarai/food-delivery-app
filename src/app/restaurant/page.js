@@ -4,7 +4,7 @@ import RestaurantLogin from "../_components/RestaurantLogin";
 import RestaurantSignUp from "../_components/RestaurantSignUp";
 import RestaurantHeader from "../_components/Restaurant";
 import "./style.css";
-import RestaurantFooter from "../_components/RestaurantFooter";
+import Footer from "../_components/Footer";
 const Restaurant = () => {
 	const [Login, setLogin] = useState(false);
 	return (
@@ -23,7 +23,7 @@ const Restaurant = () => {
 					</button>
 				</div>
 			</div>
-			<RestaurantFooter />
+			<Footer />
 		</>
 	);
 };
